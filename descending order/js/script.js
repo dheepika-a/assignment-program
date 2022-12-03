@@ -1,4 +1,4 @@
-/*var a=parseInt(prompt("enter a a value"));
+var a=parseInt(prompt("enter a a value"));
 var b=parseInt(prompt("enter a b value"));
 var c=parseInt(prompt("enter a c value"));
 var d=parseInt(prompt("enter a d value"));
@@ -161,20 +161,8 @@ else
 		   }
 	   }
 		
-}*/
+}
 
-var ch = prompt("Enter the character");
-
-
-if ((ch >= "a" && ch <= "z") || (ch >= "A" && ch <= "Z"))
-	console.log ("The Given Character is a Letter"); 
- 
-else if (ch >= "0" && ch <= "9")
-	console.log  ("The Given Character is a Number");
-
-
-else
-	console.log("The Given Character is a Special Character");
 
 
 
