@@ -1,3 +1,5 @@
+
+
 var age=prompt("enter the age");
 var permission=prompt("enter parent permission");
 if ((age>=16)&&(age<=50))
@@ -21,4 +23,3 @@ else
 {
 	alert("not allowed to get ticket");
 }
-
