@@ -3,7 +3,11 @@ sum=0
 while (a>0)
 {
 	var rem=a%10;       
-	sum=rem+rem;
+	sum=rem+sum;
 	a=(a-rem)/10;
 	console.log(rem)
 }
+
+
+
+	
